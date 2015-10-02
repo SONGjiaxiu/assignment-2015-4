@@ -77,7 +77,7 @@ python network_destruction.py [-c] [-r RADIUS] num_nodes input_file
 
 Αν χρησιμοποιήσουμε το αρχείο υπόδειγμα [destruction_example_1.txt](destruction_example_1.txt) ως εξής:
 ```bash
-python network-destruction.py -r 2 4 destruction_example_1.txt
+python network_destruction.py -r 2 4 destruction_example_1.txt
 ```
 θα πάρουμε ακριβώς:
 ```
@@ -113,7 +113,7 @@ Size: 1 members: [20]
 
 Αν χρησιμοποιήσουμε το αρχείο υπόδειγμα [destruction_example_1.txt](destruction_example_1.txt) ως εξής:
 ```bash
-python network-destruction.py -c 4 destruction_example_1.txt
+python network_destruction.py -c 4 destruction_example_1.txt
 ```
 θα πάρουμε ακριβώς:
 ```
